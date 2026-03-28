@@ -50,6 +50,8 @@ export default function LandingPage() {
               { type: 'image', src: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1", alt: "Tech" },
               { type: 'image', src: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", alt: "SEO" }
             ]}
+            marqueeSpeed={15}
+            marqueeClassName="opacity-80 scale-125"
             buttonAnimation="slide-up"
           />
         </div>
