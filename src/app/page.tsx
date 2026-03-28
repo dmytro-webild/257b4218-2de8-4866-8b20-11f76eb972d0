@@ -37,7 +37,7 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
           <HeroCentered
-            background={{ variant: "rotated-rays-animated" }}
+            background={{ variant: "canvas-reveal" }}
             title="Get a Website That Actually Brings You Customers"
             description="We design and manage professional websites for businesses around London—so you can focus on running your business."
             avatars={[]}
