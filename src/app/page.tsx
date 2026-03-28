@@ -18,10 +18,10 @@ export default function LandingPage() {
       contentWidth="medium"
       sizing="medium"
       background="circleGradient"
-      cardStyle="glass-elevated"
-      primaryButtonStyle="gradient"
-      secondaryButtonStyle="glass"
-      headingFontWeight="normal"
+      cardStyle="gradient-mesh"
+      primaryButtonStyle="primary-glow"
+      secondaryButtonStyle="layered"
+      headingFontWeight="semibold"
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
@@ -51,8 +51,6 @@ export default function LandingPage() {
               { type: 'image', src: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg?_wi=1", alt: "Data" }
             ]}
             buttonAnimation="slide-up"
-            className="!opacity-100 !transform-none !shadow-lg !scale-105 !ring-2 !ring-offset-2"
-            buttonTextClassName="text-secondary-cta-text"
           />
         </div>
 
@@ -61,7 +59,7 @@ export default function LandingPage() {
             showStepNumbers={false}
             animationType="slide-up"
             textboxLayout="split"
-            useInvertedBackground={false}
+            useInvertedBackground={true}
             title="Professional Services for Local Growth"
             description="We provide end-to-end digital services tailored for your business needs."
             features={[
@@ -89,7 +87,7 @@ export default function LandingPage() {
             title="What Our Clients Say"
             description="Hear from local business owners who have scaled their presence with ZitePilot."
             showRating={true}
-            animationType="slide-up"
+            animationType="depth-3d"
             textboxLayout="default"
             useInvertedBackground={false}
             testimonials={[
@@ -102,13 +100,13 @@ export default function LandingPage() {
 
         <div id="contact" data-section="contact">
           <ContactSplit
-            useInvertedBackground={false}
-            background={{ variant: "plain" }}
+            useInvertedBackground={true}
+            background={{ variant: "gradient-bars" }}
             tag="Get in touch"
             title="Ready to Grow Your Business?"
             description="Call us today or fill out the form for a fast, no-obligation quote. 07544 823769"
             imageSrc="http://img.b2bpic.net/free-photo/glad-hipster-female-with-cheerful-expression-wears-cap-denim-overalls-sits-front-opened-laptop-computer-drinks-fresh-summer-cocktail-enjoys-online-communication-free-internet_273609-3049.jpg"
-            mediaAnimation="slide-up"
+            mediaAnimation="blur-reveal"
             mediaPosition="right"
             inputPlaceholder="Enter your business email"
           />
