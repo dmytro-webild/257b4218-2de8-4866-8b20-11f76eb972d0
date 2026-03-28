@@ -48,7 +48,8 @@ export default function LandingPage() {
             marqueeItems={[
               { type: 'image', src: "http://img.b2bpic.net/free-photo/workplace-with-computer-keyboard-monitor-desk-laptop-office-stationery-notebook-white-background_1220-4663.jpg?_wi=1", alt: "Computer Desk" },
               { type: 'image', src: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1", alt: "Tech" },
-              { type: 'image', src: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", alt: "SEO" }
+              { type: 'image', src: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", alt: "SEO" },
+              { type: 'image', src: "http://img.b2bpic.net/free-vector/digital-marketing-agency-concept-illustration_114360-6429.jpg?_wi=1", alt: "Marketing" }
             ]}
             marqueeSpeed={15}
             marqueeClassName="opacity-80 scale-125"
