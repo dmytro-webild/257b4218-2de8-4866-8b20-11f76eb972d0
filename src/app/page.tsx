@@ -31,30 +31,27 @@ export default function LandingPage() {
               { name: "Reviews", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ]}
-            brandName="ZitePilot"
+            brandName="2026 ZitePilot"
           />
         </div>
 
         <div id="hero" data-section="hero">
           <HeroCentered
-            background={{ variant: "gradient-bars" }}
+            background={{ variant: "rotated-rays-animated" }}
             title="Get a Website That Actually Brings You Customers"
-            description="We design and manage professional websites for local businesses in Sidcup—so you can focus on running your business."
-            avatars={[
-              { src: "http://img.b2bpic.net/free-photo/natural-beauty-young-woman_329181-1207.jpg", alt: "Client 1" },
-              { src: "http://img.b2bpic.net/free-photo/cafe-customer-agreement-worker-planning_1150-1575.jpg", alt: "Client 2" },
-              { src: "http://img.b2bpic.net/free-photo/close-up-competitive-employee_1098-2870.jpg", alt: "Client 3" },
-              { src: "http://img.b2bpic.net/free-photo/smiling-woman_23-2147615403.jpg", alt: "Client 4" },
-              { src: "http://img.b2bpic.net/free-photo/close-up-competitive-employee_1098-2870.jpg", alt: "Client 5" },
-            ]}
+            description="We design and manage professional websites for businesses around London—so you can focus on running your business."
+            avatars={[]}
             buttons={[
               { text: "Call Now", href: "tel:07544823769" },
               { text: "Get Your Free Quote", href: "#contact" },
             ]}
             marqueeItems={[
-              { type: 'text', text: "Trusted by 50+ local businesses" }
+              { type: 'image', src: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1", alt: "Tech" },
+              { type: 'image', src: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", alt: "SEO" },
+              { type: 'image', src: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg?_wi=1", alt: "Data" }
             ]}
             buttonAnimation="slide-up"
+            buttonClassName="!opacity-100 !transform-none !shadow-lg !scale-105 !ring-2 !ring-offset-2"
           />
         </div>
 
@@ -74,7 +71,7 @@ export default function LandingPage() {
               },
               {
                 id: 2,
-                title: "Local SEO",                description: "Get found on Google by customers searching for your services in Sidcup.",                phoneOne: { imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", imageAlt: "SEO" },
+                title: "Local SEO",                description: "Get found on Google by customers searching for your services around London.",                phoneOne: { imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1", imageAlt: "SEO" },
                 phoneTwo: { imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=2", imageAlt: "SEO" }
               },
               {
@@ -89,15 +86,15 @@ export default function LandingPage() {
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
             title="What Our Clients Say"
-            description="Hear from local business owners who have scaled their presence with ZitePilot."
+            description="Hear from local business owners who have scaled their presence with 2026 ZitePilot."
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
             testimonials={[
-              { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
-              { id: "2", name: "Cafe Owner", handle: "@sidcup_bites", testimonial: "Fantastic service! Our website is now our biggest source of new customers.", rating: 5 },
-              { id: "3", name: "Local Shop", handle: "@sidcup_retail", testimonial: "Professional and reliable. Highly recommended for any local business in the area.", rating: 4 },
+              { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "2026 ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
+              { id: "2", name: "Cafe Owner", handle: "@london_bites", testimonial: "Fantastic service! Our website is now our biggest source of new customers.", rating: 5 },
+              { id: "3", name: "Local Shop", handle: "@london_retail", testimonial: "Professional and reliable. Highly recommended for any local business in the area.", rating: 4 },
             ]}
           />
         </div>
@@ -123,8 +120,8 @@ export default function LandingPage() {
               { title: "Services", items: [{ label: "Web Design", href: "#" }, { label: "SEO", href: "#" }] },
               { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }] },
             ]}
-            bottomLeftText="© 2024 ZitePilot"
-            bottomRightText="Serving Sidcup & South East London"
+            bottomLeftText="© 2026 2026 ZitePilot"
+            bottomRightText="Serving customers around London"
           />
         </div>
       </ReactLenis>
