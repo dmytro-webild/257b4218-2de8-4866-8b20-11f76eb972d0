@@ -93,14 +93,14 @@ export default function LandingPage() {
           title: "Web Design",
           description: "Beautiful, fast, mobile-friendly websites that convert visitors into callers.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1",
             imageAlt: "Web Design",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=2",
             imageAlt: "Web Design",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/glad-hipster-female-with-cheerful-expression-wears-cap-denim-overalls-sits-front-opened-laptop-computer-drinks-fresh-summer-cocktail-enjoys-online-communication-free-internet_273609-3049.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/glad-hipster-female-with-cheerful-expression-wears-cap-denim-overalls-sits-front-opened-laptop-computer-drinks-fresh-summer-cocktail-enjoys-online-communication-free-internet_273609-3049.jpg?_wi=1",
           imageAlt: "local web designer working on laptop",
         },
         {
@@ -108,14 +108,14 @@ export default function LandingPage() {
           title: "Local SEO",
           description: "Get found on Google by customers searching for your services in Sidcup.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=1",
             imageAlt: "SEO",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=2",
             imageAlt: "SEO",
           },
-          imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=3",
           imageAlt: "web design service icon",
         },
         {
@@ -123,14 +123,14 @@ export default function LandingPage() {
           title: "Managed Hosting",
           description: "Lightning-fast hosting, daily backups, and security included.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg?_wi=1",
             imageAlt: "Hosting",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg",
+            imageSrc: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg?_wi=2",
             imageAlt: "Hosting",
           },
-          imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/geographic-location-system_24877-52111.jpg?_wi=3",
           imageAlt: "local seo search optimization",
         },
       ]}
@@ -182,7 +182,7 @@ export default function LandingPage() {
       tag="Get in touch"
       title="Ready to Grow Your Business?"
       description="Call us today or fill out the form for a fast, no-obligation quote. 07544 823769"
-      imageSrc="http://img.b2bpic.net/free-photo/glad-hipster-female-with-cheerful-expression-wears-cap-denim-overalls-sits-front-opened-laptop-computer-drinks-fresh-summer-cocktail-enjoys-online-communication-free-internet_273609-3049.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/glad-hipster-female-with-cheerful-expression-wears-cap-denim-overalls-sits-front-opened-laptop-computer-drinks-fresh-summer-cocktail-enjoys-online-communication-free-internet_273609-3049.jpg?_wi=2"
       mediaAnimation="slide-up"
       mediaPosition="right"
       inputPlaceholder="Enter your business email"
