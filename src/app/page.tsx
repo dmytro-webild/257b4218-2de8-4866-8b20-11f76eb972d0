@@ -3,12 +3,12 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
-import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
+import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import { Star } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -48,10 +48,12 @@ export default function LandingPage() {
               { src: "http://img.b2bpic.net/free-photo/smiling-woman_23-2147615403.jpg", alt: "Client 4" },
               { src: "http://img.b2bpic.net/free-photo/close-up-competitive-employee_1098-2870.jpg", alt: "Client 5" },
             ]}
-            avatarText="Trusted by 50+ local businesses"
             buttons={[
               { text: "Call Now", href: "tel:07544823769" },
               { text: "Get Your Free Quote", href: "#contact" },
+            ]}
+            marqueeItems={[
+              { type: 'text', text: "Trusted by 50+ local businesses" }
             ]}
             buttonAnimation="slide-up"
           />
@@ -86,20 +88,17 @@ export default function LandingPage() {
         </div>
 
         <div id="testimonials" data-section="testimonials">
-          <TestimonialCardFifteen
-            useInvertedBackground={false}
-            testimonial="ZitePilot transformed our online presence. We're getting more leads and calls than ever before. Highly recommended for any local business!"
-            rating={5}
-            author="John Doe, Sidcup Builder"
-            avatars={[
-              { src: "http://img.b2bpic.net/free-photo/natural-beauty-young-woman_329181-1207.jpg", alt: "Client 1" },
-              { src: "http://img.b2bpic.net/free-photo/cafe-customer-agreement-worker-planning_1150-1575.jpg", alt: "Client 2" },
-              { src: "http://img.b2bpic.net/free-photo/close-up-competitive-employee_1098-2870.jpg", alt: "Client 3" },
-              { src: "http://img.b2bpic.net/free-photo/smiling-woman_23-2147615403.jpg", alt: "Client 4" },
-              { src: "http://img.b2bpic.net/free-photo/close-up-competitive-employee_1098-2870.jpg", alt: "Client 5" },
+          <TestimonialCardThirteen
+            title="What Our Clients Say"
+            description="Hear from local business owners who have scaled their presence with ZitePilot."
+            showRating={true}
+            animationType="slide-up"
+            textboxLayout="default"
+            testimonials={[
+              { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
+              { id: "2", name: "Cafe Owner", handle: "@sidcup_bites", testimonial: "Fantastic service! Our website is now our biggest source of new customers.", rating: 5 },
+              { id: "3", name: "Local Shop", handle: "@sidcup_retail", testimonial: "Professional and reliable. Highly recommended for any local business in the area.", rating: 4 },
             ]}
-            ratingAnimation="blur-reveal"
-            avatarsAnimation="blur-reveal"
           />
         </div>
 
