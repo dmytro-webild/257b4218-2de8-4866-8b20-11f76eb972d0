@@ -52,6 +52,7 @@ export default function LandingPage() {
             ]}
             buttonAnimation="slide-up"
             className="!opacity-100 !transform-none !shadow-lg !scale-105 !ring-2 !ring-offset-2"
+            buttonTextClassName="text-secondary-cta-text"
           />
         </div>
 
