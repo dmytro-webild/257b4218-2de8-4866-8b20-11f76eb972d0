@@ -43,7 +43,7 @@ export default function LandingPage() {
             avatars={[]}
             buttons={[
               { text: "Call Now", href: "tel:07544823769" },
-              { text: "Get Your Free Quote", href: "#contact", className: "!text-white" },
+              { text: "Get Your Free Quote", href: "#contact" },
             ]}
             marqueeItems={[
               { type: 'image', src: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1", alt: "Tech" },
@@ -51,7 +51,7 @@ export default function LandingPage() {
               { type: 'image', src: "http://img.b2bpic.net/free-vector/gradient-data-logo-template_23-2149203400.jpg?_wi=1", alt: "Data" }
             ]}
             buttonAnimation="slide-up"
-            buttonClassName="!opacity-100 !transform-none !shadow-lg !scale-105 !ring-2 !ring-offset-2"
+            className="!opacity-100 !transform-none !shadow-lg !scale-105 !ring-2 !ring-offset-2"
           />
         </div>
 
