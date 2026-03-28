@@ -8,7 +8,6 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Star } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -61,10 +60,10 @@ export default function LandingPage() {
 
         <div id="services" data-section="services">
           <FeatureCardNine
+            showStepNumbers={false}
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={false}
-            showStepNumbers={false}
             title="Professional Services for Local Growth"
             description="We provide end-to-end digital services tailored for your business needs."
             features={[
@@ -94,6 +93,7 @@ export default function LandingPage() {
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             testimonials={[
               { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
               { id: "2", name: "Cafe Owner", handle: "@sidcup_bites", testimonial: "Fantastic service! Our website is now our biggest source of new customers.", rating: 5 },
