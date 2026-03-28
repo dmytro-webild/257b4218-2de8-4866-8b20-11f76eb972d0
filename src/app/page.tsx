@@ -31,7 +31,7 @@ export default function LandingPage() {
               { name: "Reviews", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ]}
-            brandName="2026 ZitePilot"
+            brandName="ZitePilot"
           />
         </div>
 
@@ -43,7 +43,7 @@ export default function LandingPage() {
             avatars={[]}
             buttons={[
               { text: "Call Now", href: "tel:07544823769" },
-              { text: "Get Your Free Quote", href: "#contact" },
+              { text: "Get Your Free Quote", href: "#contact", className: "!text-white" },
             ]}
             marqueeItems={[
               { type: 'image', src: "http://img.b2bpic.net/free-vector/information-technology-vectors_23-2147501064.jpg?_wi=1", alt: "Tech" },
@@ -86,13 +86,13 @@ export default function LandingPage() {
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
             title="What Our Clients Say"
-            description="Hear from local business owners who have scaled their presence with 2026 ZitePilot."
+            description="Hear from local business owners who have scaled their presence with ZitePilot."
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
             testimonials={[
-              { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "2026 ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
+              { id: "1", name: "Builder Client", handle: "@local_construction", testimonial: "ZitePilot transformed our online presence. We're getting more leads and calls than ever before.", rating: 5 },
               { id: "2", name: "Cafe Owner", handle: "@london_bites", testimonial: "Fantastic service! Our website is now our biggest source of new customers.", rating: 5 },
               { id: "3", name: "Local Shop", handle: "@london_retail", testimonial: "Professional and reliable. Highly recommended for any local business in the area.", rating: 4 },
             ]}
@@ -120,7 +120,7 @@ export default function LandingPage() {
               { title: "Services", items: [{ label: "Web Design", href: "#" }, { label: "SEO", href: "#" }] },
               { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }] },
             ]}
-            bottomLeftText="© 2026 2026 ZitePilot"
+            bottomLeftText="© 2026 ZitePilot"
             bottomRightText="Serving customers around London"
           />
         </div>
